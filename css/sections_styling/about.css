@@ -1,0 +1,63 @@
+
+/*
+ * ABOUT ME
+*/
+
+.about-heading { margin-top: 3.5em; }
+
+.about-container {
+	max-width: 960px;
+	margin: auto;
+	padding: 1.2em 0;
+}
+
+.about-me,
+.more-container,
+.more {
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+	flex: 1;
+	margin: 1.4em 0; /* Will be used for SKILLS & PORTFOLIO & RECENT */
+	border-radius: 10px;
+}
+
+.about-me { width: 100%; }
+
+.avatar, 
+.about-me-text {
+	margin: 1em 1.4em;
+}
+
+.avatar {
+    -webkit-flex: 100%; /* Safari */
+    -ms-flex: 100%; /* IE 10 */
+    flex: 100%;
+}
+
+.avatar img {
+	min-width: 62.2px;
+	max-width: 100%;
+	border: 8px solid lightgrey; 
+	border-radius: 50%;
+}
+
+.about-me .about-me-text p { margin: 0; }
+
+/* HIDDEN UNTIL THE " MORE ABOUT ME " BUTTON CLICKED */
+.more-container { display: none; }
+
+.more-container > * { margin: 1em 1.4em; }
+/************ END OF MORE CONTAINER ************/
+
+.more { margin: 1em 0; }
+
+.more #more-btn {
+	display: inline-block;
+	width: 100%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 3px solid #5454cc;
+    border-radius: 6px;
+}
+
+.more #more-btn:hover { background-color: rgba(131 ,186 ,234 , .6); }

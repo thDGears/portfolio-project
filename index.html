@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- META DATA -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="X-UA-Compatible" content="ie=edge">
+	<title>Portfolio | Mohamed Yassine Laggoun</title>
+	<meta name="author" content="Mohamed Yassine Laggoun">
+	<meta name="description" content="A portfolio of my career">
+	<meta name="keywords" content="portfolio, cv, ,career, skills, front end, hire, freelance, udacity, portfolio project">
+	<!-- STYLING -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vollkorn">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play"> 
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- DON'T REMOVE THE LINE BELLOW UNLESS YOU KNOW WHAT YOU'RE GONNA DO -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!----------------------------------------------------------------------->
+    <link rel="stylesheet" href="css/style.css">
+<!--
+    <link rel="stylesheet" href="css/sections_styling/global.css">
+    <link rel="stylesheet" href="css/sections_styling/navbar.css">
+	<link rel="stylesheet" href="css/sections_styling/header.css">
+	<link rel="stylesheet" href="css/sections_styling/main.css">
+	<link rel="stylesheet" href="css/sections_styling/about.css">
+	<link rel="stylesheet" href="css/sections_styling/skills.css">
+	<link rel="stylesheet" href="css/sections_styling/portfolio.css">
+	<link rel="stylesheet" href="css/sections_styling/recent.css">
+	<link rel="stylesheet" href="css/sections_styling/footer.css">
+-->
+    <!-- DON'T REMOVE THE LINE BELLOW UNLESS YOU KNOW WHAT YOU'RE GONNA DO -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!----------------------------------------------------------------------->
+</head>
+<body>
+	<!-- OPEN THE MENU -->
+	<a class="menu-btn" id="open_menu"><i class="fas fa-bars"></i></a>
+
+	<!-- NAVINGATION LINKS -->
+	<nav class="nav-bar" id="menu">
+		<!-- Hidden untill 600px-->
+		<ul class="nav-items">
+			<li id="close"><a id="close_menu"><i class="fas fa-times"></i></a></li>
+			<li><a id="go_to_about" class="about-nav-id" href="#about-nav-id">ABOUT</a></li>
+			<li><a id="go_to_skills" href="#skills-nav-id">SKILLS</a></li>
+			<li><a id="go_to_portfolio" href="#portfolio-nav-id">PORTFOLIO</a></li>
+			<li><a id="go_to_recent" href="#recent-nav-id">RECENT PROJECTS</a></li>
+			<li><a id="go_to_contact" href="#contact-nav-id">CONTACT</a></li>
+		</ul>
+	</nav>
+
+    <!-- HEADER -->
+	<header class="hero-image flex-columns-container top-title">
+		<!-- PAGE TITLE -->
+		<div class="page-title">
+			<h1 class="my-name">MOHAMED YASSINE LAGGOUN</h1>
+			<p class="my-role"><em>FRONT END WEB DEVELOPER</em></p>
+		</div>
+		<a class="recent-nav-btn" href="#recent-nav-id">RECENT PROJECTS</a>
+	</header>
+
+	<!-- MAIN CONTENT -->
+	<main class="flex-columns-container">
+		<article id="about-nav-id">
+			<h2 class="about-heading">ABOUT</h2>
+			<div class="flex-columns-container about-container">
+				<div class="flex-rows-container about-me">
+					<div class="avatar">
+						<img src="img/avatar.jpg" alt="My picture">
+					</div>
+					<div class="about-me-text">
+						<p>I am a web developer, UI designer and a tech enthusiast, i love to explore different facets of technology. I had a broad vision from my early age. Web development take a big part of my life. I'm always thinking about new skills, new designs, new empressive looks for my projects. I'm looking forward to increase my ability to prepare for my next job.</p>
+					</div>
+				</div>
+				<!-- HIDDEN UNTILL THE " MORE ABOUT ME " BUTTON CLICKED -->
+				<div class="flex-rows-container more-container" id="more-about">
+					<p>As long as I loved programming, technology and in addtionally to mechanical engineering. I was so obssesed with these fields, they had a big effect on my life. I was also doing freelancing on Fiverr. Selling products on JVzoo and promotiong other people's products as well.</p>
+					<p>I stopped studying from the university <q>Frères Mentouri - Constantine</q> while mechanical engineering was my first goal. Then, I started thinking of programming, on how do i begin, what field should i get my hand into and how do i find the right or good studying program for that. And here, I made my first step to the field.</p>
+					<p>I get my self on Android app development, so i started with JAVA language by taking online tutorials on different platforms and free ebooks but mainly on Youtube. After that, i stoped because of my very low end PC. So, i jumped into the web development when i learned some basics about back-end, then i get my self deeper in the front-end track. Finally, i'm about to became a front-end web developer.</p>
+				</div>
+				<!-- SHOW/HIDE CONTENT OF MORE ABOUT ME -->
+				<div class="more">
+					<a id="more-btn" onclick="showHide()">MORE ABOUT ME</a>
+				</div>
+			</div>
+		</article>
+		<!-- SKILLS -->
+		<article class="skills" id="skills-nav-id">
+			<h2 class="skills-header">SKills</h2>
+			<div class="flex-columns-container skills-bar">
+				<!-- HTML -->
+				<div class="bar">
+					<span>HTML</span>
+					<meter value="0.7" min="0" max="1"></meter>	
+				</div>
+				<!-- CSS -->
+				<div class="bar">
+					<span>CSS</span>
+					<meter value="0.6" min="0" max="1"></meter>
+				</div>
+				<!-- JAVASCRIPT -->
+				<div class="bar">
+					<span>JAVASCRIPT</span>
+					<meter value="0.3" min="0" max="1"></meter>
+				</div>
+				<!-- JAVA -->
+				<div class="bar">
+					<span>JAVA</span>
+					<meter value="0.8" min="0" max="1"></meter>
+				</div>
+				<!-- ANDROID -->
+				<div class="bar">
+					<span>ANDROID</span>
+					<meter value="0.1" min="0" max="1"></meter>
+				</div>
+				<!-- GIT -->
+				<div class="bar">
+					<span>GIT/GITHUB</span>
+					<meter value="0.5" min="0" max="1"></meter>
+				</div>
+				<!-- GIMP -->
+				<div class="bar">
+					<span>GIMP</span>
+					<meter value="0.6" min="0" max="1"></meter>
+				</div>
+				<!-- INKSCAPE -->
+				<div class="bar">
+					<span>INKSCAPE</span>
+					<meter value="0.5" min="0" max="1"></meter>
+				</div>
+				<!-- SOLIDWORKS -->
+				<div class="bar">
+					<span>SOLIDWORKS</span>
+					<meter value="0.6" min="0" max="1"></meter>
+				</div>
+			</div>
+		</article>
+		<!-- PORTFOLIO -->
+		<section id="portfolio-nav-id">
+			<h2 class="portfolio-header">PORTFOLIO</h2>
+			<ul class="flex-columns-container portfolio-container">
+				<!-- NOW -->
+				<li class="portfolio-content">
+					<div class="flex-rows-container project-content">
+						<div class="project-text">
+							<h3 class="project-header">Improving skills</h3>
+							<p class="timeline-date">NOW</p>
+							<p>I am currently taking advantage of the Udacity Front end <em>Nanodegree</em> program to improve my skills and learn from industry engineers, in meantime i'm creating this portfolio.</p>
+						</div>
+					</div>
+				</li>
+				<!-- MARCH 2019 -->
+				<li class="portfolio-content">
+					<div class="flex-rows-container project-content">
+						<div class="project-text">
+							<h3 class="project-header"><a href="https://www.edx.org/course/html5-and-css-fundamentals-2" target="_blank">HTML5 and CSS Fundamentals</a></h3>
+							<p class="timeline-date">MARCH 2019</p>
+							<p>I've completed the <strong>HTML5 and CSS Fundamentals</strong> course offered by W3C experts, which is hosted on <a href="https://www.edx.org/course/html5-and-css-fundamentals-2" target="_blank">edX</a> and a part of the learning program of the <abbr title="Microsoft Professional Program">MPP</abbr> (Microsoft Professional Program).</p>
+							<p>What i've learned:</p>
+							<ul class="skill-list">
+								<li>How to write a Web page</li>
+								<li>Concepts of a markup language</li>
+								<li>Basics of HTML5 and CSS</li>
+								<li>Web design and style</li>
+								<li>Page layout and flexbox</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<!-- FEBRUARY 2019 -->
+				<li class="portfolio-content">
+					<div class="flex-rows-container project-content">
+						<div class="project-text">
+							<h3 class="project-header"><a href="https://codepen.io/yassinef1/full/ombOQd" target="_blank">Favorite Cake recipes</a></h3>
+							<p class="timeline-date">FEBRUARY 2019</p>
+							<p>A basic website built upon web standards that show of my favorite cake recipes.</p>
+							<ul class="skill-list">
+								<li>I used some of the web fundamentals skills that i learned from the <strong>HTML5 and CSS Fundamentals</strong> course on <a href="https://www.edx.org/course/html5-and-css-fundamentals-2" target="_blank">edX</a>.</li>
+								<li>It lacks responsiveness</li>
+							</ul>
+						</div>
+						<div class="project-image-holder">
+                            <a href="https://codepen.io/yassinef1/full/ombOQd" target="_blank">
+                                <img class="project-image" src="img/cake_recipe.jpg" alt="Favorite cake recipes website">
+                            </a>
+						</div>
+					</div>
+				</li>
+				<!-- JANUARY 2019 -->
+				<li class="portfolio-content">
+					<div class="flex-rows-container project-content">
+						<div class="project-text">
+							<h3 class="project-header">Front end web development</h3>
+							<p class="timeline-date">JANUARY 2019</p>
+							<p>My second enrollment on the <abbr title="One Million Arab Coders">1MAC</abbr> (One Million Arab Coders) initiative. I learned the basics of front end development and got my seconde certificate of completion issued by Udacity.</p>
+						</div>
+						<div class="project-image-holder">
+                            <a href="img/fend_cer.jpg" target="_blank">
+				                <img class="project-image" src="img/fend_cer.jpg" alt="Front end certificate of completion">
+                            </a>
+						</div>
+					</div>
+				</li>
+				<!-- 2018 -->
+				<li class="portfolio-content">
+					<div class="flex-rows-container project-content">
+						<div class="project-text">
+							<h3 class="project-header">UI design</h3>
+							<p class="timeline-date">2018</p>
+							<p>I got my hands on UI design from modifying and applying effects on images using <strong>GIMP</strong> to making vector designs with <strong>INKSCAPE</strong>.</p>
+							<p>Gimp and Inkscape are essential and professional <em>free</em> tools for every UI/UX designer.</p>
+							<ul class="skill-list">
+								<li>Modify and apply effects on images.</li>
+								<li>Basic logos.</li>
+								<li>Professional business cards.</li>
+								<li>Design my own website mockup.</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<!-- AUGUST 2018 -->
+				<li class="portfolio-content">
+					<div class="flex-rows-container project-content">
+						<div class="project-text">
+							<h3 class="project-header">Full stack web development</h3>
+							<p class="timeline-date">AUGUST 2018</p>
+							<p>I learned the basics of python and some back end too and got my Full-stack certificate of completion issued by Udacity when i enrolled in the <abbr title="One Million Arab Coders">1MAC</abbr> (One Million Arab Coders) initiative.</p>
+						</div>
+						<div class="project-image-holder">
+                            <a href="img/fstack_cer.jpg" target="_blank">
+							     <img class="project-image" src="img/fstack_cer.jpg" alt="Full stack certificate of completion">
+                            </a>
+						</div>
+					</div>
+				</li>
+				<!-- SEPTEMBER 2017 -->
+				<li class="portfolio-content">
+					<div class="flex-rows-container project-content">
+						<div class="project-text">
+							<h3 class="project-header">Java Tutorial Course</h3>
+							<p class="timeline-date">SEPTEMBER 2017</p>
+							<p>I improved my Java skills by taking the <a href="https://www.sololearn.com/Course/Java/" target="_blank">SoloLearn</a> <strong>Java Tutorial Course</strong> and earned a certificate of completion.</p>
+						</div>
+						<div class="project-image-holder">
+                            <a href="img/java-cer.jpg" target="_blank">
+                                <img class="project-image" src="img/java-cer.jpg" alt="Java Tutorial course certificate of completion">
+                            </a>
+						</div>
+					</div>
+				</li>
+				<!-- 2016 - 2017 -->
+				<li class="portfolio-content">
+					<div class="flex-rows-container project-content">
+						<div class="project-text">
+							<h3 class="project-header">Online Tutorials</h3>
+							<p class="timeline-date">2016 -  2017</p>
+							<p>During this time i gained a strong Java background and learned some Android basics by taking online tutorials.</p>
+							<div>Here's what i built:</div>
+							<ul class="skill-list">
+								<li>Currency exchange software, works only via console.</li>
+								<li>Simple calculator</li>
+								<li>Download manager</li>
+								<li>Very basic web browser</li>
+								<li>Table of data (dictionary)</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<!-- RECENT PROJECTS -->
+		<article id="recent-nav-id">
+			<h2 class="recent-heading">RECENT PROJECTS</h2>
+			<div class="flex-rows-container recent-container">
+				<div class="recent-project">
+					<a class ="recent-project-link" href="">
+						<h4>#Project 1</h4>
+						<img class="recent-project-image" src="img/demo.jpg" alt="My portfolio project">
+					</a>
+				</div>
+				<div class="recent-project">
+					<a class ="recent-project-link" href="">
+						<h4>#Project 2</h4>
+						<img class="recent-project-image" src="img/demo.jpg" alt="My favorite cake recipes website">
+					</a>
+				</div>
+				<div class="recent-project">
+					<a class ="recent-project-link" href="">
+						<h4>#Project 3</h4>
+						<img class="recent-project-image" src="img/demo.jpg" alt="A sign up form web page">
+					</a>
+				</div>
+			</div>
+		</article>
+	</main>
+
+	<!-- CONTACT ME -->
+	<footer id="contact-nav-id">
+		<article class="flex-columns-container social-media">
+			<h4>Get in touch with me</h4>
+			<hr>
+			<ul class="flex-rows-container social-container">
+				<li class="social-item">
+					<a href="#" title="Contact me on Twitter" target="_blank"><i class="fab fa-twitter-square"></i></a>
+				</li>
+				<li class="social-item">
+					<a href="#" title="Contact me on Facebook" target="_blank"><i class="fab fa-facebook-square"></i></a>
+				</li>
+				<li class="social-item">
+					<a href="#" title="Contact me on VKontakte" target="_blank"><i class="fab fa-vk"></i></a>
+				</li>
+				<li class="social-item">
+					<a href="#" title="Contact me on Linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+				</li>
+				<li class="social-item">
+					<a href="#" title="Contact me on Github" target="_blank"><i class="fab fa-github-square"></i></a>
+				</li>
+				<li class="social-item">
+					<a href="mailto:email@email.com" title="Send me an e-mail" target="_blank"><i class="fas fa-envelope-square"></i></a>
+				</li>
+			</ul>
+		</article>
+	</footer>
+
+	<!-- SCRIPTING -->
+	<script src="js/app.js"></script>
+</body>
+</html>

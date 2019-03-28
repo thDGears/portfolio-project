@@ -1,0 +1,34 @@
+
+/*
+ * RECENT PROJECTS
+*/
+
+.recent-heading {
+	margin-top: 2.5em;
+}
+
+.recent-container {
+	margin: 3em auto;
+	width: 100%;
+	max-width: 960px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.recent-project {
+	margin: 1.2em 1.575em;
+	padding: .3em;
+}
+
+.recent-project-link { color: #000; }
+
+.recent-project-image {
+	min-width: 60px;
+	max-width: 100%;
+	margin-right: 0;
+}
+
+.recent-project-image:hover {
+	filter: alpha(opacity=70); /* IE 10 AND EARLIER */
+	opacity: .7;
+}

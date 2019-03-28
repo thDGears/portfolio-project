@@ -1,0 +1,55 @@
+* { box-sizing: border-box; }
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: "Source Sans Pro" , Arial, Helvetica, sans-serif;
+	color: #1d1c1c;
+}
+
+h1 {
+	font-family: "Vollkorn", "Roboto", "Source Sans Pro", Arial, Helvetica, serif;
+    font-size: 1.4em;
+	letter-spacing: 2px;
+}
+
+h2, h3, h4 {
+	font-family: "Roboto", "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+h2 { text-transform: uppercase; }
+
+h2 { letter-spacing: 4px; }
+
+h3 {
+	text-decoration: underline;
+	color: #bf4b38;
+}
+
+* a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #0600ff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/***** WILL BE USED FOR ALL FLEXBOX CONTAINERS *****/
+.flex-rows-container {
+    display: -webkit-flex; /* Safari */
+    display: -ms-flexbox; /* IE 10 */
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.flex-columns-container {
+    display: -webkit-flex; /* Safari */
+    display: -ms-flexbox; /* IE 10 */
+	display: flex;
+	flex-flow: column nowrap;
+}
+/*****************************************************/

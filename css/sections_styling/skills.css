@@ -1,0 +1,40 @@
+
+/*
+ * SKILLS
+*/
+
+.skills {
+	color: white;
+	background: url(../../img/skills1280x853.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.skills-header { margin-top: 3.5em; }
+
+.skills-bar {
+	max-width: 960px;
+	margin: 3em auto;
+	padding: 1.3em 2em;
+}
+
+.bar {
+	margin-top: .5em;
+	margin-bottom: .65em;
+	text-align: left;
+}
+
+.bar:nth-last-child(9) {
+	margin-top: 0;
+}
+
+.bar span, .bar meter {
+	display: inline-block;
+}
+
+.bar span {
+	font-size: 1.375em;
+	text-shadow: 1px 1px 3px #1b13eb;
+	margin: auto;
+}
+
+.bar meter { width: 100%; }

@@ -1,0 +1,188 @@
+/********* BEGIN STYLING FOR MOBILE PHONES AND TABLETS **********/
+@media only screen and (min-width: 210px) {
+    
+	.more #more-btn {
+		width: unset;
+		padding: .5em 2.4em;
+	}
+}
+
+/* FOR 223px MIN WIDTH */
+@media only screen and (min-width: 223px){
+    
+    /* CHANGE PAGE TITLE FONT SIZE */
+    .my-name { font-size: 1.6em; }
+    .my-role { font-size: 1em;}
+    
+    .avatar, 
+	.about-me-text, 
+	.more-container > * {
+		min-width: 178.2px;
+	}
+}
+
+
+/* FOR 520px MIN WIDTH */
+@media only screen and (min-width: 520px) {
+    
+	.my-name { font-size: 2em; }
+    
+    .hero-image {
+		height: 30em;
+		background-image: url(../img/hero-1280x960.jpg);
+	}
+    
+    .project-image {
+		width: 100%;
+		max-height: 324.1px;
+	}
+}
+
+/* CHANGE THE WEBPAGE FONT SIZE FOR 530px MIN WIDTH */
+@media only screen and (min-width: 530px) {
+    
+	body { font-size: 1.125em; }
+
+	.bar span {
+		font-size: 1.5em;
+	}
+
+	.social-item {
+		font-size: 160%;
+	}
+}
+
+/* FOR 667px MIN WIDTH */
+@media only screen and (min-width: 667px) {
+    
+	/* MORE ABOUT ME */
+    .more-container p:nth-last-child(1) {
+		width: 100%;
+	}
+
+	.more-container 
+	p:nth-last-child(2),
+	.more-container 
+	p:nth-last-child(3) {
+        -webkit-flex: 1; /* Safari */
+        -ms-flex: 1; /* IE 10 */
+		flex: 1;
+	}
+    
+    /* SKILLS */
+	.skills { background-image: url(../img/skills1920x1280.jpg); }
+
+    /* RECENT PROJECT */
+    .recent-project {
+        -webkit-flex: 1; /* Safari */
+        -ms-flex: 1; /* IE 10 */
+        flex: 1;
+    }
+	.recent-project:nth-last-child(1) {
+        -webkit-flex: 100%; /* Safari */
+        -ms-flex: 100%; /* IE 10 */
+        flex: 100%;
+    }
+}
+/*********** END STYLING FOR MOBILE PHONES AND TABLETS **********/
+
+/***************** BEGIN STYLING FOR DESKTOPS ******************/
+@media only screen and (min-width: 770px) {
+    
+	/**** BEGIN STYLING FOR NAVIGATION LINKS ****/
+	.menu-btn { display: none; }
+
+	nav {
+		box-shadow: unset;
+    	background-color: rgb(48,40,159);
+    	color: #f0ebeb;
+	}
+
+	nav ul li:hover { background-color: unset; }
+
+	.nav-items #close { display: none; }
+
+	.nav-bar {
+	    position: fixed;
+	    width: 100%;
+	    right: 0;
+	    left: 0;
+	    -webkit-transform: unset; /* Chrome & Safari */
+	    -ms-transform: unset; /* IE */
+	    -moz-transform: unset; /* FIREFOX */
+	    transform: unset;
+	    -webkit-transition: unset; /* Chrome & Safari */
+	    -ms-transition: unset;  /* IE */
+	    -moz-transition: unset; /* FIREFOX */
+	    transition: unset;
+	}
+
+	.nav-items {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-column-gap: 1px;
+	    max-width: 960px;
+	    justify-content: center;
+		text-align: center;
+	    margin: auto;
+	    padding: .2em;
+	}
+
+	nav li a {
+	    width: unset;
+	    padding: .5em .25em;
+	}
+
+	nav li a:hover { text-decoration: underline; }
+	/********** END STYLING FOR NAV BAR **********/
+
+    .hero-image {
+		height: 36em;
+		background-image: url(../img/hero-1920x1440.jpg);
+	}
+    
+	/* ABOUT ME */
+	.avatar, 
+	.about-me-text {
+        -webkit-flex: 1; /* Safari */
+        -ms-flex: 1; /* IE 10 */
+        flex: 1;
+		min-width: 211.2px;
+	}
+    
+    .more-container > * { min-width: 211.2px; }
+    
+    /* PROJECT CONTENT */
+    .project-content > * {
+        -webkit-flex: 1; /* Safari */
+        -ms-flex: 1; /* IE 10 */
+        flex: 1;
+    }
+
+    /* RECENT PROJECT */
+	.recent-project:nth-last-child(1) {
+        -webkit-flex: 1; /* Safari */
+        -ms-flex: 1; /* IE 10 */
+        flex: 1;
+    }
+}
+
+/* SET THE PROJECTS IMAGES MAX WIDTH FOR 860PX MIN WIDTH */
+@media only screen and (min-width: 860px) {
+    
+	.project-image { max-width: 386.8px; }
+}
+
+/* FOR SCREENS WIDTH GREATER THAN 1920px */
+@media only screen and (min-width: 1921px) {
+    
+    /* SET HERO BACKGROUND IMAGE TO ITS HIGHEST RESOLUTION */
+    .hero-image { background-image: url(../img/hero-4032x3024.jpg); }
+    
+    /* SET SKILLS BACKGROUND IMAGE TO ITS HIGHEST RESOLUTION */
+	.skills { background-image: url(../img/skills4429x2953.jpg); }
+}
+
+
+
+

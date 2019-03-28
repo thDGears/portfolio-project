@@ -1,0 +1,64 @@
+
+/*
+ * PORTFOLIO
+*/
+
+section h3 a { color: #bf4b38; }
+
+.portfolio { width: 100%; }
+
+.portfolio-header { margin-top: 3em; }
+
+.portfolio-container {
+	max-width: 960px;
+	margin: 3em auto;
+}
+
+.portfolio-content {
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+	flex: 1;
+	margin: 1em 1.4em;
+	border-bottom: 2px solid #e3e3e3;
+}
+
+.project-header {
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: .2em;
+}
+
+.timeline-date {
+	text-align: left;
+	margin-top: 0;
+	padding: 0;
+	color: darkgrey;
+}
+
+.project-content {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 1em;
+	justify-content: center;
+}
+
+.project-text { text-align: left; }
+
+.project-text, .project-image-holder {
+	margin: .5em;
+}
+
+.skill-list {
+	list-style-type: circle;
+	margin-left: 3em;
+}
+
+.project-image-holder { width: 100%; }
+
+.project-image {
+	margin-right: 0;
+	min-width: 60px;
+	max-width: 100%;
+}
+
+.project-image:hover { box-shadow: 0 0 10px rgba(0, 0, 0, .7); }
