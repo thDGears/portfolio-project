@@ -156,6 +156,11 @@ header { text-align: center; }
 	align-items: center;
 }
 
+.logo {
+    width: 200px;
+    max-width: 100%;
+}
+
 /* PAGE TITLE */
 .page-title {
 	width: 100%;
@@ -173,7 +178,7 @@ header { text-align: center; }
 
 .recent-nav-btn {
     color: #f0ebeb;
-    margin-top: 2em;
+    margin-top: .5em;
     padding: .4rem;
     border: 2px solid #f0ebeb;
     border-radius: 6px;
