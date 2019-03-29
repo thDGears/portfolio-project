@@ -1,6 +1,8 @@
-# Udacity Front End Track "Portfolio Project"
+# Udacity Front End Track: Project 1 "Build a Portfolio site"
 
 This is the first project of the **Udacity Front End Track**. I used Flexbox to layout the web page and CSS Grid for the top navbar.
+
+**Live version of the website:** [Portfolio](http://clubstaars.000webhostapp.com/)
 
 ## Attribution
 
